@@ -1,0 +1,46 @@
+
+@import "null.css";
+@font-face {
+	font-family:"lato";
+	src:url("../fonts/Lato-Black.woff") format(woff);
+	font-weight: 900;
+	font-style:normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"lato";
+	src: url("../fonts/Lato-Bold.woff"), format(woff);
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"lato";
+	src: url("../fonts/Lato-Regular.woff"), format(woff);
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.main{
+	font-family: "lato",sans-serif;
+}
+h1{
+	font-size: 46px;
+	line-height: 58px;
+	font-weight: 900;
+	color: #1E212C;
+}
+ h2{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #1E212C;
+}
+p{
+	color: #424551;
+	line-height: 26px;
+	font-size: 16px;
+}
+.title li{
+	line-height: 26px;
+}
